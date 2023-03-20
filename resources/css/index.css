@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    --light-switch-on: rgb(23, 16, 69);
+    --light-switch-off: rgb(217, 211, 255);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80vw;
+    min-height: 100vh;
+    background-color: rgb(204, 229, 253);
+    transition: background 1s;
+}
+
+.button {
+    width: 15em;
+    transition: fill 1s;
+    /* fill: var(--light-switch-on); */
+    /* background-color: red; */
+}
+
